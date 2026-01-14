@@ -38,30 +38,6 @@ Key features:
 
 Below is a high-level architecture diagram showing components and data flow. The Mermaid diagram will render on GitHub and many Markdown viewers.
 
-```mermaid
-flowchart LR
-		A[Gradio UI
-		(gradio_app.py)] --> B[Orchestrator
-		(app/orchestrator.py)]
-		B --> C[FileLoader
-		(app/loaders/file_loader.py)]
-		B --> D[ChunkBuilder
-		(app/processing/chunk_builder.py)]
-		D --> E[MultimodalExtractor
-		(app/processing/multimodal_extractor.py)]
-		E --> F[ChromaVectorStore
-		(app/vectorstore/chroma_store.py)]
-		F --> G[Chroma persistence
-		(chroma_store/ SQLite + blobs)]
-		B --> H[MultimodalRAG
-		(app/rag/rag_pipeline.py)]
-		H --> I[LLM & Embeddings
-		(OpenAI or other provider)]
-		H --> F
-```
-
-If Mermaid isn't rendered in your viewer, here's an ASCII fallback:
-
 Gradio UI -> Orchestrator -> {FileLoader, ChunkBuilder -> MultimodalExtractor} -> ChromaVectorStore -> Chroma files
 																	 \-> MultimodalRAG -> LLM/Embeddings
 
