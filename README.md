@@ -117,11 +117,5 @@ python gradio_app.py
 
 Then upload a PDF and ask questions in the Gradio UI.
 
-## Next steps I can take (pick one)
 
-- Add a simple architecture PNG and include it in the repo (I can generate a diagram file).
-- Create an `.env.template` with example environment variables.
-- Add a tiny `examples/` folder containing a small sample PDF and expected Q&A pairs.
-
-Tell me which of those you'd like and I'll update only `README.md` (or add collateral files if you prefer).
 
