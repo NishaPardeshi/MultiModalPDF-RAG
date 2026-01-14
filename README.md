@@ -1,12 +1,12 @@
-(# Multimodal RAG — README
-)
-
 ## Project summary
 
 This repository contains a small experimental Retrieval-Augmented Generation
 (RAG) pipeline that ingests PDFs, extracts text/tables/images, creates
 embeddings (OpenAI), stores them in a Chroma collection, and exposes a
 Gradio-based web UI for asking questions over ingested documents.
+
+https://github.com/user-attachments/assets/ff65ae36-981e-43a7-99fe-95d77ba5751a
+
 # Multimodal RAG — README
 
 ## Project summary
@@ -116,6 +116,8 @@ python gradio_app.py
 ```
 
 Then upload a PDF and ask questions in the Gradio UI.
+
+
 
 
 
