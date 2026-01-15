@@ -1,4 +1,10 @@
-# Multimodal RAG — README
+# Multimodal RAG 
+
+<img width="1536" height="1024" alt="MultiModalPDF-RAG" src="https://github.com/user-attachments/assets/260fd9c8-4744-4767-8a4b-065a14d935d2" />
+
+## Demo
+
+https://github.com/user-attachments/assets/ff65ae36-981e-43a7-99fe-95d77ba5751a
 
 ## Project summary
 
@@ -6,8 +12,6 @@ This repository contains a small experimental Retrieval-Augmented Generation
 (RAG) pipeline that ingests PDFs, extracts text/tables/images, creates
 embeddings (OpenAI), stores them in a Chroma collection, and exposes a
 Gradio-based web UI for asking questions over ingested documents.
-
-https://github.com/user-attachments/assets/ff65ae36-981e-43a7-99fe-95d77ba5751a
 
 Key features:
 - PDF partitioning (via Unstructured) with table and image extraction
