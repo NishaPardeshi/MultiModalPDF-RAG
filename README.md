@@ -4,7 +4,10 @@
 
 ## Demo
 
-https://github.com/user-attachments/assets/ff65ae36-981e-43a7-99fe-95d77ba5751a
+
+https://github.com/user-attachments/assets/702833f8-6e81-46f1-b320-b4e076a500f6
+
+
 
 ## Project summary
 
